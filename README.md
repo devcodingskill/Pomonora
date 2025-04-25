@@ -12,7 +12,7 @@ Pomonora is a simple and elegant Pomodoro timer designed to help you focus with 
 Check out the live demo of the project here: [Pomonora](https://devcodingskill.github.io/Pomonora/)
 
 ## Screenshots
-![Set Focus Time](image/screenshot.png)
+![Set Focus Time](images/screenshot.png)
 
 ## How to Use
 1. **Set Focus Time**: Click the "Set Focus Time" button to input the desired focus duration.
