@@ -27,7 +27,7 @@ function starttimer() {
 
 function resetTimer() {
     clearInterval(timeInterval);
-    minutes = focusTime;
+    minutes = focusTime;    
     seconds = 0;
     time.innerHTML = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
     timerDesciption.innerHTML = "focus time!";
