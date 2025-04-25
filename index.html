@@ -17,20 +17,20 @@
             </div>
             <div class="content">
                 <div class="top-btn">
-                    <button class="btn">fucus</button>
-                    <button class="btn">Shot break</button>
-                    <button class="btn">Long break</button>
+                    <button class="btn" onclick="setupFocus()">Set focus time</button>
+                    <button class="btn" onclick="setupBreak()">Set break time</button>
+                    <!-- <button class="btn">Long break</button> -->
                 </div>
                 <div class="time">
-                    <div class="time-box">
-                        <h1 class="time-text">25:00</h1>
-                        <p class="time-description">Focus time</p>
+                    <div class="time-box" >
+                        <h1 class="time-text" id="time-box">25:00</h1>
+                        <p class="time-description" id="description">Focus time</p>
                     </div>
                 </div>
                 <div class="play-btn">
-                    <button class="btn"><img src="images/refresh.svg" /></button>
-                    <button class="btn"><img src="images/play.svg" /></button>
-                    <button class="btn"><img src="images/play-forward.svg" /></button>
+                    <button class="btn" onclick="resetTimer()"><img src="images/refresh.svg" /></button>
+                    <button class="btn" onclick="starttimer()"><img src="images/play.svg" /></button>
+                    <button class="btn" onclick="startBreak()"><img src="images/play-forward.svg" /></button>
                 </div>
             </div>
         </div>
